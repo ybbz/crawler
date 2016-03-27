@@ -2,10 +2,10 @@
 
 This is a crawler, you can use it to crawl resources.
 
-get_html_img.py
+###get_html_img
 Download all the images of a web page.
 
-crawl_weibo.py
+###crawl_weibo
 1.Crawl all the text of your Weibo account, and write the result to the document.
 2.Cut the text result of your weibo with jieba, so you can get your words list of Weibo.
 3.read stopwords.txt, get stop words list;remove all stop words of step2, get the new words list
