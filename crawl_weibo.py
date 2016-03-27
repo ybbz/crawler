@@ -19,8 +19,8 @@ import matplotlib.pyplot as plt
 
 result = ''
 count = 1
-user_id = your weibo user_id
-cookie = {"Cookie": your weibo cookie}
+user_id = 'your weibo user_id'
+cookie = {"Cookie": 'your weibo cookie'}
 download_path = '/Users/ybbz/Downloads/weibo/'
 
 print('crawl the text of your weibo: start...')
