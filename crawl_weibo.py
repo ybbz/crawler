@@ -1,5 +1,14 @@
 # encoding=utf-8
 
+"""
+Crawl all the text of your Weibo account, and write the result to the document.
+Cut the text result of your weibo with jieba, so you can get your words list of Weibo.
+read stopwords.txt, get stop words list;remove all stop words of step2, get the new words list.
+Statistics frequency of the new word list, get the list of frequency.
+Sort the result of step4, then, get top30 words.
+Draw the picture of your top30 words.
+"""
+
 import requests
 from lxml import etree
 import jieba
@@ -75,9 +84,9 @@ for word in word_list:
 for key in word_dict:
     word_frequency.append((word_dict[key], key))
 
-# sort the result and get top 20
-word_20 = sorted(word_frequency)[-30:]
-word_20.reverse()
+# sort the result and get top20
+word_30 = sorted(word_frequency)[-30:]
+word_30.reverse()
 
 print('analyze : done.')
 ######################################################
@@ -89,7 +98,7 @@ csv_path = '/Users/ybbz/Downloads/weibo/weibo.csv'
 with open(csv_path, 'w') as f:
     f_csv = csv.writer(f)
     f_csv.writerow(['frequency', 'word'])
-    f_csv.writerows(word_20)
+    f_csv.writerows(word_30)
 
 # read data and draw picture
 budget = pd.read_csv(csv_path)
