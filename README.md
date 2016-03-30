@@ -14,3 +14,8 @@ Download all the images of a web page.
 * Statistics frequency of the new words list, get the list of frequency.
 * Sort the result of step4, then, get top30 words.
 * Draw the picture of your top30 words.
+
+### crawl_ibeike
+
+* Crawl all the posts that someone(yourself) posted.
+* Analyze the data and draw pictures.
