@@ -17,5 +17,5 @@ Download all the images of a web page.
 
 ### crawl_ibeike
 
-* Crawl all the posts that someone(yourself) posted.
-* Analyze the data and draw pictures.
+* crawl_ibeike1:Crawl all the posts that someone(yourself) posted.
+* crawl_ibeike2:Analyze the data and draw pictures.
