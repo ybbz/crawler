@@ -2,12 +2,10 @@
 
 This is a crawler, you can use it to crawl resources.
 
-### get_html_img
-
+#### get_html_img
 Download all the images of a web page.
 
-### crawl_weibo
-
+#### crawl_weibo
 * Crawl all the text of your Weibo account, and write the result to the document.
 * Cut the text result of your weibo with jieba, so you can get your words list of Weibo.
 * Read stopwords.txt, get stop words list;remove all stop words of step2, get the new words list.
@@ -15,7 +13,6 @@ Download all the images of a web page.
 * Sort the result of step4, then, get top30 words.
 * Draw the picture of your top30 words.
 
-### crawl_ibeike
-
-* crawl_ibeike1:Crawl all the posts that someone(yourself) posted.
-* crawl_ibeike2:Analyze the data and draw pictures.
+#### crawl_ibeike
+* crawl_ibeike1: Crawl all the posts that someone(yourself) posted.
+* crawl_ibeike2: Analyze the data and draw pictures.
