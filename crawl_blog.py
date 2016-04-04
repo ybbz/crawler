@@ -1,7 +1,7 @@
 """
-- Crawl all articles including title and time from Categories page of your blog.
-- Analyze the data above and save result to database(title、create_time、content...）.
-- Query data from database and show your articles(to be continued).
+Crawl all articles including title and time from Categories page of your blog.
+Analyze the data above and save result to database(title、create_time、content...）.
+Query data from database and show your articles(to be continued).
 """
 
 from urllib.request import urlopen
