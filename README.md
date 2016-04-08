@@ -17,4 +17,12 @@ Download all the images of a web page.
 * crawl_ibeike1: Crawl all the posts that someone(yourself) posted.
 * crawl_ibeike2: Analyze the data and draw pictures.
 
+#### web_scraping
+I am Learning the book <<Web Scraping with Python>>, this is the reading notes of this book.
+
+#### crawl_blog
+* Crawl all articles including title and time from Categories page of your blog.
+* Analyze the data above and save result to database(title、create_time、content...）.
+* Query data from database and show your articles(to be continued).
+
 To be Continued.
