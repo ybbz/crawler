@@ -25,4 +25,8 @@ I am Learning the book <<Web Scraping with Python>>, this is the reading notes o
 * Analyze the data above and save result to database(title、create_time、content...）.
 * Query data from database and show your articles(to be continued).
 
+#### html
+* html files
+* map.html: Baidu map api practice of mine.
+
 To be Continued.
